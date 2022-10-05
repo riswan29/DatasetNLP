@@ -4,20 +4,20 @@
             "tag": "greeting",
             "patterns":[
                 "hallo",
-          "hai",
-          "halo",
-          "hei",
-          "hi",
-          "hy",
-          "pagi",
-          "morning",
-          "siang",
-          "afternoon",
-          "sore",
-          "malam",
-          "bro",
-          "sis",
-          "kawan"
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+               "kawan"
             ],
             "responses": [
                 "Horas! MuseBot di sini. Mau tau informasi tentang apa nih?",
@@ -32,8 +32,7 @@
                 "Siapa MuseBot ? "
             ],
             "responses":[
-                "MuseBot adalah sebuat sistem layanan berbasis digital untuk membantu pengunjung untuk mengetahui apa saja layanan yang ada pada Museum ini .",
-                "Musebot merupakan chatbot ......"
+                "MuseBot adalah sebuat sistem layanan berbasis digital untuk membantu pengunjung untuk mengetahui apa saja layanan yang ada pada Museum ini ."
             ]
         },
         {
@@ -57,19 +56,26 @@
             ]
         },
         {
-            "tag": "dadah",
-            "patterns":[
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
                 "Bye",
-                "Sampai Jumpa",
-                "Terimakasih",
-                "See you..."
-            ],
-            "responses":[
-                "Terimakasih telah menggunakan MuseBot",
-                "See you again ...",
-                "Bye ...",
-                "Dadah..."
-            ]
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+        ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+          ]
         }
     ]
 }
