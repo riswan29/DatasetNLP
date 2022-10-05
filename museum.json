@@ -4,20 +4,20 @@
             "tag": "greeting",
             "patterns":[
                 "hallo",
-                "hai",
-                "halo",
-                "hei",
-                "hi",
-                "hy",
-                "pagi",
-                "morning",
-                "siang",
-                "afternoon",
-                "sore",
-                "malam",
-                "bro",
-                "sis",
-                "kawan"
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan"
             ],
             "responses": [
                 "Horas! MuseBot di sini. Mau tau informasi tentang apa nih?",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "tag": "goodbye",
+            "tag": "dadah",
             "patterns":[
                 "Bye",
                 "Sampai Jumpa",
