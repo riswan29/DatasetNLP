@@ -20,9 +20,9 @@
                 "kawan"
             ],
             "responses": [
-                "Horas! x di sini. Mau tau informasi tentang apa nih?",
-                "Ahoi! Saya x, salam kenal ya! Mau tau tentang MuseumX, kan?",
-                "Halo! Ini x. Lagi kepo tentang MuseumX ya?"
+                "Horas! MuseBot di sini. Mau tau informasi tentang apa nih?",
+                "Ahoi! Saya MuseBot, salam kenal ya! Mau tau tentang Museum Deli Serdang, kan?",
+                "Halo! Ini MuseBot. Lagi kepo tentang Museum Deli Serdang ya?"
             ]
         },
         {
@@ -49,7 +49,26 @@
         {
             "tag": "kapan",
             "patterns":[
+                "Kapan didirikan museum deli serdang ?",
                 ""
+            ],
+            "responses":[
+                "Museum Deli Serdang merupakan museum khusus yang dibangun pada tahun 2001 dengan menggunakan dana Anggaran Pendapatan Belanja Daerah (APBD). Peresmian dilaksanakan pada tanggal 12 Agustus 2003."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":[
+                "Bye",
+                "Sampai Jumpa",
+                "Terimakasih",
+                "See you..."
+            ],
+            "responses":[
+                "Terimakasih telah menggunakan MuseBot",
+                "See you again ...",
+                "Bye ...",
+                "Dadah..."
             ]
         }
     ]
