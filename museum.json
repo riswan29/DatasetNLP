@@ -1,0 +1,56 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns":[
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Horas! x di sini. Mau tau informasi tentang apa nih?",
+                "Ahoi! Saya x, salam kenal ya! Mau tau tentang MuseumX, kan?",
+                "Halo! Ini x. Lagi kepo tentang MuseumX ya?"
+            ]
+        },
+        {
+            "tag": "MuseBot",
+            "patterns" : [
+                "Apa itu MuseBot?",
+                "Siapa MuseBot ? "
+            ],
+            "responses":[
+                "MuseBot adalah sebuat sistem layanan berbasis digital untuk membantu pengunjung untuk mengetahui apa saja layanan yang ada pada Museum ini .",
+                "Musebot merupakan chatbot ......"
+            ]
+        },
+        {
+            "tag": "filosofi",
+            "patterns":[
+                "Apa filosofi dari bangunan Museum Deli Serdang ?",
+                "Apa filosofi Museum deli serdang ? "
+            ],
+            "responses":[
+                "filosofi dari bangunan museum Deli Serdang diambil dari konsep Itik Pulang Petang dari filosofi masyarakat Melayu. Ornamen 'Itik Pulang Petang' bermakna kepatuhan dan perlambang kebaikan, dimana unsur-unsur teratur, rapi dan harmonis tercermin dari bentuknya."
+            ]
+        },
+        {
+            "tag": "kapan",
+            "patterns":[
+                ""
+            ]
+        }
+    ]
+}

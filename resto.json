@@ -1,0 +1,50 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns":[
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses":[
+                "Hallo saya RestoBot, mau tau menu terbaru kami ?",
+                "Halo RestoBot disini, kami ada menu baru nih ?"
+            ]
+        },
+        {
+            "tag" : "RestoBot",
+            "patterns" : [
+                "Apa itu RestoBot ?",
+                "Siapa itu RestoBot?"
+            ],
+            "responses" : [
+                "RestoBot adalah sebuah layanan berbasih chat, yang akan akan membantu pelanggan apabila mengalami kendala maupun ingin mengetahui tentang Resto Kami.",
+                "RestoBot adalah pelayan yang berbasis digital yang akan membantu anda untuk mempermudah pesanan anda dalam melakukan pesanan :) "
+            ]
+        },
+        {
+            "tag" : "Menu",
+            "patterns" : [
+                "Boleh saya tau apa aja Menu yang tersedia ?", 
+                "Apa aja Menu yang populer di Resto ini ?",
+                "Boleh kasih saya rekomendasi menu"
+            ],
+            "responses":[
+                "Menu yang kami sediakan sangat beragamm "
+            ]
+        }
+    ]
+}
